@@ -19,7 +19,7 @@ import restwithspringbootandjavaerudio.services.PersonServices;
 
 
 @RestController
-@RequestMapping("/person")
+@RequestMapping("api/person/v1s")
 public class PersonController {
 
 	@Autowired
@@ -36,13 +36,13 @@ public class PersonController {
 	}
 
 	@PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
-	public PersonVO create(@RequestBody PersonVO personVO) {
-		return service.create(personVO);
+	public PersonVO create(@RequestBody PersonVO person) {
+		return service.create(person);
 	}
-
+		
 	@PutMapping(consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
-	public PersonVO update(@RequestBody PersonVO personVO) {
-		return service.update(personVO);
+	public PersonVO update(@RequestBody PersonVO person) {
+		return service.update(person);
 	}
 
 	@DeleteMapping(value = "/{id}")
