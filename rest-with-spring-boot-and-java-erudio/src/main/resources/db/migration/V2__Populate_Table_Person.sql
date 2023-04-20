@@ -1,9 +1,8 @@
-INSERT INTO `person` (`id`, `address`, `first_name`, `gender`, `last_name`) VALUES 
-(1,'São Paulo','Roberto','Male','Pacheco'),
-(2,'Anchiano - Italy','Leonardo Teste','Male','da Vinci'),
-(5,'São Paulo - Brasil','Airton','Male','Sena'),
-(6,'São Paulo - Brasil','Icaro','Male','Machado'),
-(7,'São Paulo - Brasil','Ricardo teste','Male','Machado'),
-(9,'Croácia','Nikala','Male','Tesla'),
-(10,'Áustria','Arnold','Male','Schwarzenegger');
-
+INSERT INTO `person` (`id`, `address`, `first_name`, `gender`, `last_name`) VALUES
+	(1, 'São Paulo', 'Ayrton', 'Male', 'Senna'),
+	(2, 'Anchiano - Italy', 'Leonardo', 'Male', 'da Vinci'),
+	(4, 'Porbandar - India', 'Indira', 'Female', 'Gandhi'),
+	(5, 'Porbandar - India', 'Mahatma', 'Male', 'Gandhi'),
+	(7, 'Kentucky - US', 'Muhammad', 'Male', 'Ali'),
+	(9, 'Mvezo – South Africa', 'Nelson', 'Male', 'Mvezo'),
+	(10, 'Smiljan - Croácia', 'Nikola', 'Male', 'Tesla');

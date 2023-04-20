@@ -72,6 +72,7 @@ public class PersonVO extends RepresentationModel<PersonVO> implements Serializa
 		this.gender = gender;
 	}
 
+	
 	@Override
 	public int hashCode() {
 		final int prime = 31;
